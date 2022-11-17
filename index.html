@@ -62,11 +62,17 @@
 
       
         <div id="content">
-                <div class="container-fluid">
+                <div class="container-fluid" style="position:relative ;">
                     <button type="button" id="sidebarCollapse" class="btn btn-info" title="toggle_sidebar">
                         <i class="fas fa-align-left"></i>   
                     </button>
+
+                   
                     <img src="images/space_long.jpg" alt="stars" id="space_wallpaper">
+                    <div class="header"><p>Welcome aboard to the CometCat!</p></div>
+                    
+                    
+
                 </div>
           
                 <h1 class="text-center">Featured Articles</h1>
@@ -78,14 +84,16 @@
                     <div class="card mx-auto" style="width: 300px; height: 400px;">
                         <img class="card-img-top mx-auto" src="images/rover.png" alt="Card image cap" style="width:200px">
                         <div class="card-body">
-                          <p class="card-text" style="color: black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text" style="color: black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                    
+                          <button type="button" class="btn btn-primary">Gadgets & Tech</button>
                         </div>
                     </div>
 
                     <div class="card mx-auto" style="width: 300px; height: 400px;">
-                        <img class="card-img-top mx-auto" src="images/earth.png" alt="Card image cap" style="width:200px">
+                        <img class="card-img-top mx-auto" src="images/experiment.png" alt="Card image cap" style="width:200px">
                         <div class="card-body">
                           <p class="card-text" style="color: black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-danger">Comet Cadets</button> 
                         </div>
                     </div>
                    
@@ -96,8 +104,20 @@
 
             <div class="container">
                 <div class="row justify-content-center"> 
-                    <div class="block mx-auto"></div>
-                    <div class="block mx-auto"></div>
+                    <div class="card mx-auto" style="width: 300px; height: 400px;">
+                        <img class="card-img-top mx-auto" src="images/astronaut.png" alt="Card image cap" style="width:200px">
+                        <div class="card-body">
+                          <p class="card-text" style="color: black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-warning">Space Explorers</button>
+                        </div>
+                    </div>
+                    <div class="card mx-auto" style="width: 300px; height: 400px;">
+                        <img class="card-img-top mx-auto" src="images/earth.png" alt="Card image cap" style="width:200px;">
+                        <div class="card-body">
+                          <p class="card-text" style="color: black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-success">Our Home</button>
+                        </div>
+                    </div>
                 </div>   
             </div>
 
@@ -105,8 +125,21 @@
 
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="block mx-auto"></div>
-                    <div class="block mx-auto"></div>
+                    <div class="card mx-auto" style="width: 300px; height: 400px;">
+                        <img class="card-img-top mx-auto" src="images/scientist.png" alt="Card image cap" style="width:200px">
+                        <div class="card-body">
+                          <p class="card-text" style="color: black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-danger">Comet Cadets</button>
+                        </div>
+                    </div>
+
+                    <div class="card mx-auto" style="width: 300px; height: 400px;">
+                        <img class="card-img-top mx-auto" src="images/star.png" alt="Card image cap" style="width:200px">
+                        <div class="card-body">
+                          <p class="card-text" style="color: black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-info">Far Far Away</button>
+                        </div>
+                    </div>
                 </div>   
             </div>
         </div>
@@ -122,12 +155,12 @@
     <script type="text/javascript">
         $(document).ready(function () {
 
-            
-
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar').toggleClass('active');
 
-                $('#logo').toggleClass("shrink")
+                $('#logo').toggleClass('shrink')
+
+                $('.header').toggleClass('push')
             });
         });
     </script>

@@ -13,6 +13,20 @@ p {
     color: white;
 }
 
+.header{
+    position: absolute;
+    top: 20px;
+    left: 16vw;
+    font-size: 2.5em;
+}
+
+.push{
+    position: absolute;
+    top: 20px;
+    left: 21vw;
+    font-size: 2.5em;
+}
+
 h1{
     color:white;
     margin: auto;
@@ -237,6 +251,7 @@ a.article:hover {
 #space_wallpaper{
     width:100%;
     height: 175px;
+    margin-bottom: 100px;
 }
 
 
