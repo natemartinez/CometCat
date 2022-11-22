@@ -299,8 +299,14 @@ a.article:hover {
     height: 300px;
     background-color: grey;
     border-radius: 10px;
+    padding-left: 100px;
+    padding-top: 25px;
 }
 
+#earth_text{
+    
+    
+}
 
 
 @media (max-width: 768px) {
