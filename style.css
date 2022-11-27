@@ -5,6 +5,7 @@ body {
     background: #fafafa;
 }
 
+
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
@@ -18,6 +19,13 @@ p {
     top: 20px;
     left: 16vw;
     font-size: 2.5em;
+}
+
+#our_world_header{
+    position: absolute;
+    top: 20px;
+    left: 25vw;
+    font-size: 3em;
 }
 
 .push{
@@ -57,6 +65,7 @@ a:focus {
 .container-fluid{
     padding-left: 0px;
     padding-right: 0px;
+    height: 175px;
 }
 
 .line {
@@ -260,13 +269,14 @@ a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
     background: black;
+    
 }
 
 #content > p {
     padding: 20px;
 }
 #content > h1 {
-    padding: 15px;
+    padding: 50px;
 }
 
 #sidebarCollapse{
@@ -296,16 +306,73 @@ a.article:hover {
 
 #earth_big_block{
     width: 100%;
-    height: 300px;
+    height:750px;
     background-color: grey;
     border-radius: 10px;
-    padding-left: 100px;
-    padding-top: 25px;
+    padding: 35px 25px 0px 100px ;
+}
+
+.briefing_header{
+    font-size: 3em;
+    margin-bottom:45px
 }
 
 #earth_text{
-    
-    
+    position: relative;
+    bottom: 16em;
+    left: 20em;
+    max-width: 40em;
+}
+
+#whoami_earth{
+    position:absolute;
+    top:47em;
+    left: 21em;
+    width: 17em;
+    height: 225px;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 10px 0px 0px 0px;
+}
+#whoami_earth * li{
+    list-style-type: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+#whoami_earth img{
+    width: 325px;
+}
+#whoami_earth p{
+    color: black;
+    font-family:'Kanit', sans-serif; ;
+    font-size: 1.2em;
+}
+
+
+
+#stats_earth{
+    position:absolute;
+    top:47em;
+    left: 45.5em;
+    width: 17em;
+    height: 225px;
+    border-radius: 10px;
+    background-color:beige;
+}
+#funfacts_earth{
+    position:absolute;
+    top:47em;
+    right: 5.5em;
+    width: 17em;
+    height: 225px;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+.articles{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
 }
 
 

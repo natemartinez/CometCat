@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <title>CometCat</title>
-
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -62,32 +62,71 @@
 
       
         <div id="content">
-                <div class="container-fluid" style="position:relative ;">
+           <div class="container-fluid" style="position:relative;">
                     <button type="button" id="sidebarCollapse" class="btn btn-info" title="toggle_sidebar">
                         <i class="fas fa-align-left"></i>   
                     </button>
 
                    
                     <img src="/images/nature.jpg" alt="trees" class="wallpaper" id="nature">
-                    <div class="header"><p>Welcome aboard to the CometCat!</p></div>
-                </div>
+                    <div class="header" id="our_world_header"><p>Welcome to our world!</p></div>
+           </div>
           
 
+           <div class="body" style="background-color: white;">
 
+           
             <div class="line"></div>
 
            <div class="container">
-             <div class="row justify-content-center">
+              <div class="row justify-content-center">
                 <div id="earth_big_block">
-                  <img src="/images/earth.jpg" alt="earth from space" style="width:250px">
-                
+                    <p class="text-center briefing_header">Mission Briefing</p>
+                    <img src="/images/earth.jpg" alt="earth from space" style="width:250px;">  
+                    <div id="earth_text">
+                        <span style="margin-bottom:15px"><h3>This page is about our beautiful home, Earth!</h3></span>
+                        <p>From the deep depths of the ocean blue, to the grand heights of the mountains,
+                          the beauty of our world is endless. What seems to be a random blue marble to the average alien,
+                          is actually a miracle of life.
+                        </p>
+                        <p>
+                           Time to learn all about the wonders of the Earth!
+                        </p>
+                    </div>
+                    
+                    <div id="whoami_earth">
+                       <p class="text-center">Earth is the <strong>3rd</strong><br>closest planet to the Sun</p>
+                       <img src="/images/ss.png" alt="solar system">
+                    </div>
+
+                    <div id="stats_earth">
+                        
+                    </div>
+                        
+                    <div id="funfacts_earth">
+
+                    </div>
+                      
+                    
+                    
+
                 </div>
               </div>
-              
            </div>
 
             <div class="line"></div>
 
+            <div class="container">
+                <div class="row articles">
+                    <div class="col-sm-4">
+                        <p>Image column</p>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>words column</p>
+                    </div>
+                </div>
+            </div>
+
             
             <div class="line"></div>
 
@@ -95,7 +134,7 @@
 
             <div class="line"></div>
 
-            
+           </div> 
         </div>
     </div>
 
@@ -116,6 +155,9 @@
 
                 $('.header').toggleClass('push')
             });
+
+
+            
         });
     </script>
 </body>
