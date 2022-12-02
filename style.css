@@ -7,7 +7,7 @@ body {
 
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
@@ -309,7 +309,11 @@ a.article:hover {
     height:750px;
     background-color: grey;
     border-radius: 10px;
-    padding: 35px 25px 0px 100px ;
+    padding: 35px 55px 0px 65px ;
+}
+#earth_big_block img {
+    width: 250px;
+    border-radius: 10px;
 }
 
 .briefing_header{
@@ -324,56 +328,72 @@ a.article:hover {
     max-width: 40em;
 }
 
-#whoami_earth{
-    position:absolute;
-    top:47em;
-    left: 21em;
+.squares{
+    position: relative;
     width: 17em;
     height: 225px;
     border-radius: 10px;
-    background-color: beige;
+    background-color: black; 
     padding: 10px 0px 0px 0px;
+    margin-top: -9em;
 }
-#whoami_earth * li{
-    list-style-type: none;
-    font-family: 'Kanit', sans-serif;
-    font-size: 20px;
+
+#whoami_earth{
+    float: left;
 }
 #whoami_earth img{
     width: 325px;
 }
 #whoami_earth p{
-    color: black;
+    color: white;
     font-family:'Kanit', sans-serif; ;
     font-size: 1.2em;
 }
 
-
-
 #stats_earth{
-    position:absolute;
-    top:47em;
-    left: 45.5em;
-    width: 17em;
-    height: 225px;
-    border-radius: 10px;
-    background-color:beige;
+    margin-left: 22em;
 }
+#stats_earth p{
+    color: white;
+    font-family:'Kanit', sans-serif ;
+}
+#stats_earth img{
+    width: 170px;
+    margin-left:3em;
+}
+
 #funfacts_earth{
-    position:absolute;
-    top:47em;
-    right: 5.5em;
-    width: 17em;
-    height: 225px;
-    border-radius: 10px;
-    background-color: beige;
+    float:right;
+    margin-top: -14em;
+    margin-left: 3em;
+    padding: 10px 10px 0px 10px;
+}
+#funfacts_earth p{
+    font-size: 1.3em;
+}
+#funfacts_earth img{
+    width: 283px;
+    height: 165px;
+    position: relative;
+    margin-top: -6.2em;
+    margin-left: -1em;
 }
 
 .articles{
-    width: 100%;
     height: 300px;
-    background-color: aqua;
+    background-color: beige;
+    border-radius: 10px;
 }
+.articles img{
+    width: 325px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.articles p{
+    margin-top: 2em;
+}
+
 
 
 @media (max-width: 768px) {
@@ -436,3 +456,10 @@ a.article:hover {
     }
 }
 
+@media(max-width:1024px) {
+    #our_world_header{
+        font-size: 3em;
+    }
+
+    
+}
