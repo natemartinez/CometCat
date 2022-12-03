@@ -17,9 +17,17 @@ p {
 .header{
     position: absolute;
     top: 20px;
-    left: 16vw;
-    font-size: 2.5em;
+    left: 17vw;
+    font-size: 2.7em;
 }
+
+.push{
+    position: absolute;
+    top: 20px;
+    left: 23vw;
+    font-size: 2.7em;
+}
+
 
 #our_world_header{
     position: absolute;
@@ -28,17 +36,20 @@ p {
     font-size: 3em;
 }
 
-.push{
-    position: absolute;
-    top: 20px;
-    left: 21vw;
-    font-size: 2.5em;
-}
 
 h1{
     color:white;
     margin: auto;
 }
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+ .grow:hover { 
+    transform: scale(1.1);
+    cursor: pointer;   
+ }
 
 a,
 a:hover,
@@ -277,6 +288,8 @@ a.article:hover {
 }
 #content > h1 {
     padding: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.2em;
 }
 
 #sidebarCollapse{
@@ -314,6 +327,10 @@ a.article:hover {
 #earth_big_block img {
     width: 250px;
     border-radius: 10px;
+}
+#earth_big_block span{
+    margin-bottom:15px;
+    color: white;
 }
 
 .briefing_header{
@@ -381,7 +398,7 @@ a.article:hover {
 
 .articles{
     height: 300px;
-    background-color: beige;
+    background-color: grey;
     border-radius: 10px;
 }
 .articles img{
@@ -393,6 +410,13 @@ a.article:hover {
 .articles p{
     margin-top: 2em;
 }
+
+#more_btn{
+    font-size: 2em;
+    margin-left: 12em;
+}
+
+
 
 
 
